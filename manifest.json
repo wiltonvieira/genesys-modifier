@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Genesys Modifier - (v.1.0)",
+  "description": "Genesys Modifier with a better alternative",
+  "author": "Wilton Lobato Vieira",
+  "action": {
+    "default_popup": "content.html",
+    "default_title": "Genesys Modifier"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://apps.mypurecloud.com/*"],
+      "css": ["content.css"],
+      "js": ["content.js"]
+    }
+  ]
+}
