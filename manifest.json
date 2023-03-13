@@ -1,12 +1,18 @@
 {
   "manifest_version": 3,
   "version": "1.0",
-  "name": "Genesys Modifier - (v.1.0)",
+  "name": "Genesys Modifier",
   "description": "Genesys Modifier with a better alternative",
   "author": "Wilton Lobato Vieira",
   "action": {
     "default_popup": "content.html",
     "default_title": "Genesys Modifier"
+  },
+  "icons": {
+    "16": "replace-icon.jpg",
+    "32": "replace-icon.jpg",
+    "48": "replace-icon.jpg",
+    "128": "replace-icon.jpg"
   },
   "content_scripts": [
     {
